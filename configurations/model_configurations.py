@@ -1,0 +1,15 @@
+# preprocessing:
+TOKEN_CHUNK_SIZE = 480
+TOKEN_CHUNK_OVERLAP = 1
+MAX_NUMBER_OF_SPLITS = None
+MIN_NUM_WORDS = None
+# embedding configurations:
+SENTENCE_TRANSFORMER_MODEL = 'BAAI/bge-small-en'  # "all-MiniLM-L6-v2"
+BATCH_SIZE = 100
+SHOW_PROGRESS_BAR = True
+NORMALIZE_EMBEDDINGS = True
+# umap configurations:
+NUM_NEIGHBORS = 15
+NUM_COMPONENTS = 5
+MIN_DIST = 0.0
+UMAP_METRIC = 'euclidean'

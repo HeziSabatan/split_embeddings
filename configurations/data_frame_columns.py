@@ -1,0 +1,6 @@
+TEXTS = 'text'
+BINARY_LABELS = 'depression_level_class'
+NUMBER_OF_TOKENS = 'number_of_tokens'
+PARTICIPANT_ID = 'Participant_ID'
+SPLIT_ARTICLES = 'split_articles'
+SPLIT_ARTICLES_EMBEDDING = 'split_articles_embeddings'
